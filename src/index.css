@@ -1,0 +1,183 @@
+body {
+    background-image: url("../public/background-image.png");
+    background-size: cover;
+    color: #293264;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-container {
+    padding-top: 5px;
+    display: flex;
+}
+
+.option {
+    font-family: 'Inter', sans-serif;
+    margin-left: 15px;
+    border: 1.75px solid #4D5B9E;
+    padding: 7.5px 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.first-option {
+    margin-left: 0;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.check-answers-btn {
+    align-self: center;
+    margin-top: 25px;
+    padding: 15px 30px;
+    background-color: #4D5B9E;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 1rem;
+    transition: 250ms;
+}
+
+section {
+    padding-bottom: 25px;
+    border-bottom: 1.5px solid #DBDEF0;
+}
+
+.question {
+    font-size: 1.25rem;
+}
+
+.container:first-child {
+    margin-top: -50px;
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.settings-btn {
+    align-self: center;
+    background-image: url("../public/ios-settings-6-256.png");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border: none;
+    margin-top: 22.5px;
+    margin-left: 15px;
+    border-radius: 50%;
+    transition: 250ms;
+}
+
+button {
+    cursor: pointer;
+}
+
+.active-option {
+    background-color: rgba(214, 219, 245, 0.75);
+}
+
+.green-option {
+    background-color: rgba(148, 215, 162, 0.75);
+}
+
+.red-option {
+    background-color: rgba(245, 187, 188, 0.75);
+}
+
+.score {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.settings-background {
+    background-color: #2b2b2b;
+}
+
+.back-btn {
+    background-image: url("https://cdn.icon-icons.com/icons2/1514/PNG/512/backbutton_104978.png");
+    align-self: center;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    border: none;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 2.5px solid white;
+    transition: 250ms;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.category-options {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.difficulty-options {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.15rem;
+}
+
+.settings-container {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-btn:hover {
+    width: 100px;
+    height: 100px;
+}
+
+.settings-btn:hover {
+    width: 75px;
+    height: 75px;
+}
+
+.check-answers-btn:hover {
+    padding: 22.5px 45px;
+}
